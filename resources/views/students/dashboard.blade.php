@@ -15,6 +15,8 @@
     <div class="container-fluid">
         <div class="row">
 
+            @include('messages')
+
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="card card-stats">
                     <div class="card-header" data-background-color="orange">
@@ -129,7 +131,7 @@
 
                                     <div class="col-md-9">
                                         <p>
-                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="#" class="read-more">read more..</a>
+                                          This is to inform you that the Postgraduate screening exercise which was postponed due to strike action by the Staff Unions of Universities has been rescheduled to hold from Monday, October 09, 2017 to Friday, October 13, 2017.  The schedule is hereby attached and also shown below <a href="#" data-toggle="modal" data-target=".news" class="read-more">read more..</a>
                                         </p>
                                     </div>
                                 </div>
@@ -144,7 +146,8 @@
 
                                     <div class="col-md-9">
                                         <p>
-                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="#" class="read-more">read more..</a>
+                                          The National Universities Commission (NUC) Accreditation Team to the Department of Architecture, Faculty of Environmental Studies departed University of Uyo, Tuesday June 20, 2017 after an exit meeting with the University Management held in the office of the Vice-Chancellor.
+                                          <a href="#" data-toggle="modal" data-target=".news2" class="read-more">read more..</a>
                                         </p>
                                     </div>
                                 </div>
@@ -154,12 +157,13 @@
                                 <div class="row news-row">
 
                                     <div class="col-md-3">
-                                        <img src="/img/uniuyo1.png" alt="news_logo"  class="img img-responsive"/>
+                                        <img src="/img/pix.jpg" alt="news_logo"  class="img img-responsive"/>
                                     </div>
 
                                     <div class="col-md-9">
                                         <p>
-                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="#" class="read-more">read more..</a>
+                                          The National Universities Commission (NUC) Accreditation Team to the Department of Architecture, Faculty of Environmental Studies departed University of Uyo, Tuesday June 20, 2017 after an exit meeting with the University Management held in the office of the Vice-Chancellor.
+                                          <a href="#" data-toggle="modal" data-target=".news3" class="read-more">read more..</a>
                                         </p>
                                     </div>
                                 </div>

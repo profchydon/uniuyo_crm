@@ -11,12 +11,19 @@
 |
 */
 
-Route::get('/', 'PageController@index');
+Route::get('/', 'PageController@index')->name('home');
+Route::get('/login', 'PageController@login');
 Route::get('/faqs', 'PageController@faqs');
+
+Route::post('/student/login', 'StudentController@signin');
+
+Route::post('/student/register', 'StudentController@register');
 
 Route::get('/student/dashboard', 'StudentController@dashboard');
 Route::get('/student/profile', 'StudentController@profile');
 
+Route::post('/book-appointment', 'AppointmentController@bookAppointment');
+
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index');

@@ -17,10 +17,11 @@ class CreateLecturersTable extends Migration
             $table->increments('id');
             $table->string('firstName');
             $table->string('lastName');
-            $table->string('email');
+            $table->string('email')->unique();
             $table->string('mobile');
             $table->string('department');
             $table->string('password');
+            $table->string('sex');
             $table->timestamps();
         });
     }

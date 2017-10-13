@@ -16,4 +16,13 @@ class PageController extends Controller
         return view ('faqs');
     }
 
+    public function login()
+    {
+        return view ('auth.login');
+    }
+
+    public function register()
+    {
+        return view ('auth.register');
+    }
 }

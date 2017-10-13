@@ -8,6 +8,11 @@ a.navbar-brand.crm-header {
     font-weight: 400;
 }
 
+a.nav-a {
+    margin: 15px;
+    font-weight: 500;
+}
+
 /* Nav CSS*/
 
 /* Welcome Page*/
@@ -38,16 +43,41 @@ h4.faq-title.text-center {
     font-weight: 400;
 }
 
+.news-h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+}
+
 /* FAQs */
 
 /* Customer Care Modal*/
 .modal-body.customercare-body {
-    padding: 20px;
+    padding: 0px 30px 0px 30px;
 }
 
-.modal-content {
-    padding: 30px;
+.modal-header {
+    background: #05592e;
+    padding: 15px !important;
+    color: #fff;
+    border-bottom: 1px solid #064e2a !important;
 }
+
+.modal .modal-header .close {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.modal-footer {
+    padding: 10px 20px !important;
+}
+
+.alert.alert-success.text-center, .alert.alert-danger.text-center, .alert.alert-info.text-center, .alert.alert-warning.text-center {
+    padding: 10px;
+    font-weight: 500;
+}
+
 /* Customer Care Modal*/
 
 p.category {
@@ -55,6 +85,18 @@ p.category {
     font-weight: 600;
 }
 
+img#news-image {
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.news-p{
+    line-height: 28px;
+}
+
+.modal-content .modal-body {
+    padding: 10px 30px;
+}
 
 img.img-logo.img-responsive {
     width: 12em;
@@ -65,11 +107,12 @@ img.img-logo.img-responsive {
 }
 
 .read-more {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 button.btn.btn-primary {
     background: #05592f !important;
+    border: 1px solid #064e2a !important;
 }
 
 .sidebar .nav p, .off-canvas-sidebar .nav p {
